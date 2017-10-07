@@ -1,0 +1,143 @@
+ <!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Profile Page</title>
+        <!--bootstrap-->
+        <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+        <!--font- awesome-->
+        <link rel="stylesheet" type="text/css" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+        <!--stylesheet-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><span>hello</span><span class="text-uppercase">books</span></a>
+                    </div>
+                
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <form class="navbar-form navbar-left">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for books">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button"><img src="assets/img/send.png" alt="" class="img-responsive"></button>
+                                </span>
+                            </div><!-- /input-group -->
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="./"><img src="" alt="[User Picture]"></a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ayodele Olawunmi <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fa fa-bell"></i><span class="count">2</span></a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+        <section>
+            <div class="container">
+                <div>
+                    <h1 class="text-center">User Profile</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <h3>Add Profile Picture</h3>
+                        <form action="">
+                            <div><img src="" alt="[User Profile]"></div>
+                            <label for="Paschal">
+                                <input type="file" id="Paschal">
+                                <button class="btn btn-primary">Upload Picture</button>
+                                <button>Remove</button>
+                            </label>
+                        </form>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h3>Feeds</h3>
+                        <ul class="text-center">
+                            <li>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        My Library <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>Notifications</li>
+                            <li>Logout</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h3>Edit Personal Information</h3>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Adebayo Salami">
+                                <button type="button" class="btn btn-default">Edit</button>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="adebayo@gmail.com">
+                                <button type="button" class="btn btn-default">Edit</button>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password">
+                                <button type="button" class="btn btn-default">Edit</button>
+                            </div>
+                            <div><button class="btn btn-primary">Update Profile</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <ul class="">
+                    <li class="">
+                        <p>&copy; 2017 Great Simple All Rights Reserved</p>
+                    </li>
+                    <li class="">
+                        <p class="text-uppercase">
+                            <a href="#">terms and conditions</a>, <a href="#">support</a>, <a href="#">faqs</a>
+                        </p>
+                    </li>
+                    <li class="">
+                        <ul class="">
+                            <li><span><i class="fa fa-skype"></i></span></li>
+                            <li><span><i class="fa fa-instagram"></i></span></li>
+                            <li><span><i class="fa fa-twitter"></i></span></li>
+                            <li><span><i class="fa fa-facebook"></i></span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script type="text/javascript" src="assets/plugins/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
