@@ -65,7 +65,9 @@ h1,h1,h3,h4,h5,h6,b,p,div,input{
 	border-radius: 2px;
 }
 
-
+.btn-primary a{
+	color: #FFF !important;
+}
 
 
 /* header style*/
