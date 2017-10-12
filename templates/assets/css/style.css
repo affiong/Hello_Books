@@ -1,7 +1,9 @@
 .cards {
 
 }
-
+h1,h1,h3,h4,h5,h6,b,p,div,input{
+	font-family: nunito;
+}
 .cards__item {
 	border: 1px #e7e7e7 solid;
 	border-radius: 3px;
@@ -118,4 +120,58 @@
 	padding: 20px;
 	background-color: rgba(0,0,0,0.2);
 	margin-top: 60px;
+}
+.main-heading{
+	font-weight: 900;
+	margin-top: 2%;
+	margin-bottom: 7%;
+}
+.img-book{
+	border:none;
+	border-radius: 8px;
+	background: #cccccc;
+	padding-top: 30px !important;
+	box-shadow: none;
+}
+.img-book img {
+    margin: none !important;
+    height: 375px;
+    width: 100%;
+}
+.img-book a{
+	padding: 8px 33px;
+	border-radius: 6px;
+	margin-left: 1px;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+.img-book a:nth-of-type(2){
+	background: rgba(0,0,0,0.45) !important;
+	color: white;
+}
+.authors_expl {
+	margin-top: 33%;
+	
+}
+.abt p{
+	line-height: 1.7em;
+	text-align: justify;
+}
+.authors_expl b{
+	font-size: 18px !important;
+	margin-right: 2%;
+}
+.authors_expl p{
+	font-size: 16px;
+}
+.up_dwn b{
+	font-size: 16px !important;
+	font-weight: 100;
+	color: lightblue;
+}
+.up_dwn b:nth-of-type(2){
+	color: indianred;
+}
+.thumb{
+	padding: 20px;
 }
