@@ -1,0 +1,32 @@
+{
+  "name": "hellobook",
+  "version": "1.0.0",
+  "description": "a library management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test",
+    "babel-node": "babel-node --presets=es2015",
+    "start": "nodemon --exec npm run babel-node -- src/index.js"
+  },
+  "author": "SeunAgbeye",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "express-print-routes": "^1.0.0",
+    "prettyjson": "^1.2.1"
+  }
+}
